@@ -1,0 +1,12 @@
+PopupDatePicker implements an animated popup date picker
+component for iPhone applcations.
+
+PopupDatePicker is:
+
+PopupDatePicker.h
+PopupDatePicker.m
+PopupDatePickerDelegate.h
+
+In the Sample folder is a sample application using the PopupDatePicker.
+
+
