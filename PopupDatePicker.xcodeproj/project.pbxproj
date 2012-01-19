@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		442CADD614955FE30032C068 /* AboutLivefront.m in Sources */ = {isa = PBXBuildFile; fileRef = 442CADC414955FE30032C068 /* AboutLivefront.m */; };
+		442CADD714955FE30032C068 /* AboutLivefront.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442CADC514955FE30032C068 /* AboutLivefront.xib */; };
+		442CADD814955FE30032C068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 442CADC714955FE30032C068 /* AppDelegate.m */; };
+		442CADD914955FE30032C068 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442CADC914955FE30032C068 /* BaseViewController.m */; };
+		442CADDA14955FE30032C068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 442CADCA14955FE30032C068 /* InfoPlist.strings */; };
+		442CADDD14955FE30032C068 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442CADCF14955FE30032C068 /* MainViewController.m */; };
+		442CADDE14955FE30032C068 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442CADD014955FE30032C068 /* MainViewController.xib */; };
+		442CADE014955FE30032C068 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442CADD414955FE30032C068 /* PreferencesViewController.m */; };
+		442CADE114955FE30032C068 /* PreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442CADD514955FE30032C068 /* PreferencesViewController.xib */; };
+		44345CF11491ADAD002C787F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44345CF01491ADAD002C787F /* UIKit.framework */; };
+		44345CF31491ADAD002C787F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44345CF21491ADAD002C787F /* Foundation.framework */; };
+		44345CF51491ADAD002C787F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44345CF41491ADAD002C787F /* CoreGraphics.framework */; };
+		44345D211491AE17002C787F /* PopupDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 44345D201491AE17002C787F /* PopupDatePicker.m */; };
+		448C3102149570D0008037B6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 448C3101149570D0008037B6 /* Constants.m */; };
+		44D2C7D81496BD7A006D0B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D2C7D51496BD7A006D0B84 /* main.m */; };
+		44D2C7D91496BD7A006D0B84 /* PopupDatePicker-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D2C7D61496BD7A006D0B84 /* PopupDatePicker-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		442CADC314955FE30032C068 /* AboutLivefront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutLivefront.h; sourceTree = "<group>"; };
+		442CADC414955FE30032C068 /* AboutLivefront.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutLivefront.m; sourceTree = "<group>"; };
+		442CADC514955FE30032C068 /* AboutLivefront.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutLivefront.xib; sourceTree = "<group>"; };
+		442CADC614955FE30032C068 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		442CADC714955FE30032C068 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		442CADC814955FE30032C068 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		442CADC914955FE30032C068 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		442CADCB14955FE30032C068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		442CADCE14955FE30032C068 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		442CADCF14955FE30032C068 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		442CADD014955FE30032C068 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		442CADD314955FE30032C068 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		442CADD414955FE30032C068 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		442CADD514955FE30032C068 /* PreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesViewController.xib; sourceTree = "<group>"; };
+		44345CEC1491ADAD002C787F /* PopupDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44345CF01491ADAD002C787F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44345CF21491ADAD002C787F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44345CF41491ADAD002C787F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44345D081491ADAE002C787F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		44345D1F1491AE17002C787F /* PopupDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupDatePicker.h; sourceTree = "<group>"; };
+		44345D201491AE17002C787F /* PopupDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupDatePicker.m; sourceTree = "<group>"; };
+		44345D2C1491BE31002C787F /* PopupDatePickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupDatePickerDelegate.h; sourceTree = "<group>"; };
+		448C3100149570D0008037B6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		448C3101149570D0008037B6 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		44D2C7D51496BD7A006D0B84 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44D2C7D61496BD7A006D0B84 /* PopupDatePicker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PopupDatePicker-Info.plist"; sourceTree = "<group>"; };
+		44D2C7D71496BD7A006D0B84 /* PopupDatePicker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PopupDatePicker-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44345CE91491ADAD002C787F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44345CF11491ADAD002C787F /* UIKit.framework in Frameworks */,
+				44345CF31491ADAD002C787F /* Foundation.framework in Frameworks */,
+				44345CF51491ADAD002C787F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		442CADC214955FE30032C068 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				44D2C7D41496BD7A006D0B84 /* Main */,
+				442CADC314955FE30032C068 /* AboutLivefront.h */,
+				442CADC414955FE30032C068 /* AboutLivefront.m */,
+				442CADC514955FE30032C068 /* AboutLivefront.xib */,
+				442CADC614955FE30032C068 /* AppDelegate.h */,
+				442CADC714955FE30032C068 /* AppDelegate.m */,
+				442CADC814955FE30032C068 /* BaseViewController.h */,
+				442CADC914955FE30032C068 /* BaseViewController.m */,
+				442CADCA14955FE30032C068 /* InfoPlist.strings */,
+				442CADCE14955FE30032C068 /* MainViewController.h */,
+				442CADCF14955FE30032C068 /* MainViewController.m */,
+				442CADD014955FE30032C068 /* MainViewController.xib */,
+				442CADD314955FE30032C068 /* PreferencesViewController.h */,
+				442CADD414955FE30032C068 /* PreferencesViewController.m */,
+				442CADD514955FE30032C068 /* PreferencesViewController.xib */,
+				448C3100149570D0008037B6 /* Constants.h */,
+				448C3101149570D0008037B6 /* Constants.m */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		44345CE11491ADAD002C787F = {
+			isa = PBXGroup;
+			children = (
+				442CADC214955FE30032C068 /* Sample */,
+				44345CF61491ADAD002C787F /* PopupDatePicker */,
+				44345CEF1491ADAD002C787F /* Frameworks */,
+				44345CED1491ADAD002C787F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44345CED1491ADAD002C787F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44345CEC1491ADAD002C787F /* PopupDatePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44345CEF1491ADAD002C787F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44345CF01491ADAD002C787F /* UIKit.framework */,
+				44345CF21491ADAD002C787F /* Foundation.framework */,
+				44345CF41491ADAD002C787F /* CoreGraphics.framework */,
+				44345D081491ADAE002C787F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44345CF61491ADAD002C787F /* PopupDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				44345D1F1491AE17002C787F /* PopupDatePicker.h */,
+				44345D201491AE17002C787F /* PopupDatePicker.m */,
+				44345D2C1491BE31002C787F /* PopupDatePickerDelegate.h */,
+			);
+			path = PopupDatePicker;
+			sourceTree = "<group>";
+		};
+		44D2C7D41496BD7A006D0B84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				44D2C7D51496BD7A006D0B84 /* main.m */,
+				44D2C7D61496BD7A006D0B84 /* PopupDatePicker-Info.plist */,
+				44D2C7D71496BD7A006D0B84 /* PopupDatePicker-Prefix.pch */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44345CEB1491ADAD002C787F /* PopupDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44345D191491ADAE002C787F /* Build configuration list for PBXNativeTarget "PopupDatePicker" */;
+			buildPhases = (
+				44345CE81491ADAD002C787F /* Sources */,
+				44345CE91491ADAD002C787F /* Frameworks */,
+				44345CEA1491ADAD002C787F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupDatePicker;
+			productName = PopupDatePicker;
+			productReference = 44345CEC1491ADAD002C787F /* PopupDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44345CE31491ADAD002C787F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Livefront;
+			};
+			buildConfigurationList = 44345CE61491ADAD002C787F /* Build configuration list for PBXProject "PopupDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44345CE11491ADAD002C787F;
+			productRefGroup = 44345CED1491ADAD002C787F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44345CEB1491ADAD002C787F /* PopupDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44345CEA1491ADAD002C787F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442CADD714955FE30032C068 /* AboutLivefront.xib in Resources */,
+				442CADDA14955FE30032C068 /* InfoPlist.strings in Resources */,
+				442CADDE14955FE30032C068 /* MainViewController.xib in Resources */,
+				442CADE114955FE30032C068 /* PreferencesViewController.xib in Resources */,
+				44D2C7D91496BD7A006D0B84 /* PopupDatePicker-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44345CE81491ADAD002C787F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44345D211491AE17002C787F /* PopupDatePicker.m in Sources */,
+				442CADD614955FE30032C068 /* AboutLivefront.m in Sources */,
+				442CADD814955FE30032C068 /* AppDelegate.m in Sources */,
+				442CADD914955FE30032C068 /* BaseViewController.m in Sources */,
+				442CADDD14955FE30032C068 /* MainViewController.m in Sources */,
+				442CADE014955FE30032C068 /* PreferencesViewController.m in Sources */,
+				448C3102149570D0008037B6 /* Constants.m in Sources */,
+				44D2C7D81496BD7A006D0B84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		442CADCA14955FE30032C068 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				442CADCB14955FE30032C068 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44345D171491ADAE002C787F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44345D181491ADAE002C787F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44345D1A1491ADAE002C787F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample/Main/PopupDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "Sample/Main/PopupDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44345D1B1491ADAE002C787F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample/Main/PopupDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "Sample/Main/PopupDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44345CE61491ADAD002C787F /* Build configuration list for PBXProject "PopupDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44345D171491ADAE002C787F /* Debug */,
+				44345D181491ADAE002C787F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44345D191491ADAE002C787F /* Build configuration list for PBXNativeTarget "PopupDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44345D1A1491ADAE002C787F /* Debug */,
+				44345D1B1491ADAE002C787F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44345CE31491ADAD002C787F /* Project object */;
+}
