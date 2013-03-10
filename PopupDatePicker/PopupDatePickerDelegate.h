@@ -66,5 +66,7 @@
 ///
 - (void)popupDatePicker:(PopupDatePicker *)datePicker didSelectDate:(NSDate *)date;
 
+- (void)popupDatePicker:(PopupDatePicker *)datePicker didChangeDate:(NSDate *)date;
+
 @end
 

@@ -44,6 +44,7 @@
         _datePicker.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         _datePicker.datePickerMode = UIDatePickerModeDate;
         _datePicker.opaque = YES;
+        [_datePicker addTarget:self action:@selector(dateDidChange) forControlEvents:UIControlEventValueChanged];
 
         _doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(_didSelectDone)];
 
@@ -193,6 +194,12 @@
 - (void) orientationDidChange: (NSNotification *) notification
 {
 
+}
+
+- (void)dateDidChange {
+    if ([self.delegate respondsToSelector:@selector(popupDatePicker:didChangeDate:)]) {
+        [self.delegate popupDatePicker:self didChangeDate:self.datePicker.date];
+    }
 }
 
 @end
